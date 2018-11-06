@@ -18,5 +18,15 @@ namespace Calculator
         {
             return String.Format("First number: {0}, second number: {1}, number in memory: {2}", FirstNumber, SecondNumber, NumberInMemory);
         }
+
+        public int SumNumbers() 
+        {
+            return FirstNumber + SecondNumber;
+        }
+
+        public int MultiplyNumbers()
+        {
+            return FirstNumber * SecondNumber;
+        }
     }
 }
