@@ -28,5 +28,23 @@ namespace Calculator
         {
             return FirstNumber * SecondNumber;
         }
+
+        public int SumInBetween()
+        {
+            if (FirstNumber > SecondNumber) 
+            {
+                return FirstNumber - SecondNumber;
+            } else if (SecondNumber < FirstNumber)
+            {
+                return SecondNumber - FirstNumber;
+            } else {
+                return 0;
+            }
+        }
+
+        public void ClearMemory() 
+        {
+            NumberInMemory = 0;
+        }
     }
 }
