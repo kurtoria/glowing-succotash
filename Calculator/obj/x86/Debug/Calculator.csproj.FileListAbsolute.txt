@@ -1,0 +1,6 @@
+/Users/victoriagronqvist/Desktop/iths/c#/labb-1/Calculator/Calculator/obj/x86/Debug/Calculator.csprojAssemblyReference.cache
+/Users/victoriagronqvist/Desktop/iths/c#/labb-1/Calculator/Calculator/obj/x86/Debug/Calculator.csproj.CoreCompileInputs.cache
+/Users/victoriagronqvist/Desktop/iths/c#/labb-1/Calculator/Calculator/bin/Debug/Calculator.exe
+/Users/victoriagronqvist/Desktop/iths/c#/labb-1/Calculator/Calculator/bin/Debug/Calculator.pdb
+/Users/victoriagronqvist/Desktop/iths/c#/labb-1/Calculator/Calculator/obj/x86/Debug/Calculator.exe
+/Users/victoriagronqvist/Desktop/iths/c#/labb-1/Calculator/Calculator/obj/x86/Debug/Calculator.pdb
