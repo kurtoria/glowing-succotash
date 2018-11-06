@@ -9,6 +9,9 @@ namespace Calculator
 
         public Calculator()
         {
+            FirstNumber = 0;
+            SecondNumber = 0;
+            NumberInMemory = 0;
         }
     }
 }

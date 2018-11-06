@@ -7,6 +7,7 @@ namespace Calculator
         public static void Main(string[] args)
         {
             Calculator calculator = new Calculator();
+            Console.WriteLine(calculator.FirstNumber);
         }
     }
 }
