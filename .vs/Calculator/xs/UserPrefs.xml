@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{75D21C07-962F-4F89-BC63-E8C04A6300DD}|Default">
   <MonoDevelop.Ide.ItemProperties.Calculator PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Calculator/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Calculator/Calculator.cs">
     <Files>
-      <File FileName="Calculator/Program.cs" Line="22" Column="17" />
-      <File FileName="Calculator/Calculator.cs" Line="22" Column="31" />
+      <File FileName="Calculator/Program.cs" Line="85" Column="14" />
+      <File FileName="Calculator/Calculator.cs" Line="47" Column="33" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />

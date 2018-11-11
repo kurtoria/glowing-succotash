@@ -3,15 +3,15 @@ namespace Calculator
 {
     public class Calculator
     {
-        public int FirstNumber { get; set; }
-        public int SecondNumber { get; set; }
-        public int NumberInMemory { get; set; }
+        public double FirstNumber { get; set; }
+        public double SecondNumber { get; set; }
+        public double NumberInMemory { get; set; }
 
         public Calculator()
         {
-            FirstNumber = 0;
-            SecondNumber = 0;
-            NumberInMemory = 0;
+            FirstNumber = 0.0;
+            SecondNumber = 0.0;
+            NumberInMemory = 0.0;
         }
 
         public override string ToString()
@@ -19,32 +19,30 @@ namespace Calculator
             return String.Format("First number: {0}, second number: {1}, number in memory: {2}", FirstNumber, SecondNumber, NumberInMemory);
         }
 
-        public int SumNumbers() 
+        public double SumNumbers() 
         {
             return FirstNumber + SecondNumber;
         }
 
-        public int MultiplyNumbers()
+        public double MultiplyNumbers()
         {
             return FirstNumber * SecondNumber;
         }
 
-        public int SumInBetween()
+        public double SumInBetween()
         {
-            if (FirstNumber > SecondNumber) 
+
+            double totalSum = 0.0;
+            for (double i = FirstNumber; i <= SecondNumber; i++)
             {
-                return FirstNumber - SecondNumber;
-            } else if (SecondNumber < FirstNumber)
-            {
-                return SecondNumber - FirstNumber;
-            } else {
-                return 0;
+                totalSum = totalSum + i;
             }
+            return totalSum;
         }
 
         public void ClearMemory() 
         {
-            NumberInMemory = 0;
+            NumberInMemory = 0.0;
         }
     }
 }

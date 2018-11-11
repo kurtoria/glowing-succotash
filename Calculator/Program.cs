@@ -51,12 +51,7 @@ namespace Calculator
                     break;
                 case 5:
                     calculator.ClearMemory();
-                    if(calculator.NumberInMemory == 0)
-                    {
-                        Console.WriteLine("Memory is cleared");
-                    } else {
-                        Console.WriteLine("Oops, something went wrong, try again");
-                    }
+                    checkMemoryClear();
                     break;
                 case 6:
                     Console.WriteLine(calculator.ToString());
@@ -82,6 +77,18 @@ namespace Calculator
             Console.WriteLine("Type in number u would like to save:");
             calculator.NumberInMemory = int.Parse(Console.ReadLine());
             Console.WriteLine("The number {0} successfully saved to memory", calculator.NumberInMemory);
+        }
+
+        private static void checkMemoryClear()
+        {
+            if (calculator.NumberInMemory == 0.0)
+            {
+                Console.WriteLine("Memory is cleared!");
+            }
+            else
+            {
+                Console.WriteLine("Oops, something went wrong, try again");
+            }
         }
             
     }
